@@ -2,6 +2,7 @@ from typing import List
 from PyQt5.QtMultimediaWidgets import *
 from PyQt5.QtMultimedia import *
 from CameraFactory import *
+from CVCamera import *
 
 
 class CameraViewfiderFactory:

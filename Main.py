@@ -11,8 +11,10 @@ mainWindow = QMainWindow()
 controller = ControllerCameraView()
 
 mainWindow.setCentralWidget(controller.cameraViewFrame)
-mainWindow.setVisible(True)
-mainWindow.show()
-mainWindow.resize(1308, 857)
+mainWindow.resize(controller.cameraViewFrame.size())
 
+
+
+mainWindow.setVisible(True)
 app.exec_()
+
